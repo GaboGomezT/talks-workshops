@@ -11,7 +11,7 @@ Esto es para ti si te gusta escribir en Python y quieres dar el siguiente paso c
 
 ## Descripción:
 
-Esta charla estará centrada en utilizar la memoria caché del procesador junto con los conceptos de localidad temporal y espacial para hacer eficiente nuestro uso de la memoria. Esto no se puede lograr con las listas de Python puesto que por tener elementos de tipos heterogéneos así que termina siendo un arreglo de apuntadores. 
+Esta charla estará centrada en utilizar la memoria caché del procesador junto con los conceptos de localidad temporal y espacial para hacer eficiente nuestro uso de la memoria. Esto no se puede lograr con las listas de Python puesto que por tienen elementos de tipos heterogéneos, termina siendo un arreglo de apuntadores. 
 
 La acción de hacer desreferencia para cada elemento del arreglo no nos deja aprovechar el caché porque los elementos de la lista no están en memoria **contigua**. 
 Superamos este obstáculo usando los arrays de Numpy cuyos elementos SÍ existen en memoría contigua. 
@@ -26,9 +26,13 @@ Temario
 * Ver implementación de array de Numpy - 2 min
 * Implementar multiplicación de matrices con arrays - 3 min
 * Comparación con C, Java y Go - 5 min
+* QA - 7 min
 
-Plan de acción
-* Comenzaré enseñando el problema inicial para después justificar el uso del caché
-* Explicaré la teoría con diagramas y memes
-* Todo el código junto con sus resultados los tendré en imágenes (nada de live coding)
-* El código lo subiré a un repo de Github y pondré el link
+
+## Notas:
+Los asistentes deben tener un entendimiento básico sobre cómo funciona una computadora, conceptos como lo que es la CPU y la memoria.
+Deben además entender conceptos básicos de estructuras de datos como arreglos, listas y las operaciones que se pueden hacer con estas.
+
+Me considero como la mejor persona para hablar sobre esto porque estoy cursando desarrollo de sistemas distribuidos y vimos a profundidad este tema. En la materia usamos Java pero yo lo traducí a Python y así es como llegué a esta realización.
+Además estoy terminando mi licenciatura en ingeniería en sistemas computacionales, lo cuál me ha permitido entender de forma integral el manejo de memoria.
+
